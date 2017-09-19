@@ -6,7 +6,6 @@
   "keywords": [],
   "dependencies": {
     "alidayujs": "^1.0.5",
-    "crypto": "^1.0.1",
     "ejs": "2.3.4",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.0.0",
@@ -25,7 +24,10 @@
     "sails": "~0.12.13",
     "sails-disk": "~0.10.9",
     "util": "^0.10.3",
-    "weixin-pay": "^1.1.7"
+    "weixin-pay": "^1.1.7",
+    "bcrypt": "~0.8.0",
+    "passport": "~0.2.1",
+    "passport-local": "~1.0.0"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -37,5 +39,8 @@
     "url": "git://github.com/anonymous node/sails user/Sails-app.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "bcryptjs": "^2.4.3"
+  }
 }
