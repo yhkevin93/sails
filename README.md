@@ -1,3 +1,10 @@
-# Sails-app
+# 颜浩的Sails-app
 
-a [Sails](http://sailsjs.org) application
+ 用于公司后端服务器模板
+ 
+#### 2017-9-19
+ 
+ 1. 添加微信和支付宝支付功能
+ 2. 添加短信验证功能
+ 3. 用户注册和登陆功能
+
